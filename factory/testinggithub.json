@@ -1,0 +1,9 @@
+{
+	"name": "testinggithub",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "916fa59f-f80d-403c-b3ec-6574969b46c7",
+		"tenantId": "19dc80cc-4b51-4a97-9e29-f7d5ea9a2187"
+	}
+}
