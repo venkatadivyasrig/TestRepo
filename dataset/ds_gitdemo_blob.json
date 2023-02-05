@@ -1,0 +1,32 @@
+{
+	"name": "ds_gitdemo_blob",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragegit",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "tps00010.tsv",
+				"container": "population"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "indic_de",
+				"type": "String"
+			},
+			{
+				"name": "geo\\time\t2008 \t2009 \t2010 \t2011 \t2012 \t2013 \t2014 \t2015 \t2016 \t2017 \t2018 \t2019 ",
+				"type": "String"
+			}
+		]
+	}
+}
